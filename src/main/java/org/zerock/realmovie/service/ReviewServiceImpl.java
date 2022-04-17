@@ -30,6 +30,7 @@ public class ReviewServiceImpl implements ReviewService{
                 entityToDto(movieReview)).collect(Collectors.toList());
     }
 
+
     @Override
     public Long register(ReviewDTO movieReviewDTO) {
 

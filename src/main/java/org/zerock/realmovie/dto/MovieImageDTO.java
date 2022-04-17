@@ -27,6 +27,7 @@ public class MovieImageDTO {
         }
         return "";
     }
+
     public String getThumbnailURL(){
 
         try {
